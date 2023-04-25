@@ -863,7 +863,7 @@ section{
    }
 
    .about .box-container{
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr;   
    }
 
    .menu .box-container{

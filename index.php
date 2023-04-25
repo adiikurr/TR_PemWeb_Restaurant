@@ -266,7 +266,7 @@ if(isset($_POST['order'])){
          <p> address : <span><?= $fetch_orders['address']; ?></span> </p>
          <p> payment method : <span><?= $fetch_orders['method']; ?></span> </p>
          <p> total_orders : <span><?= $fetch_orders['total_products']; ?></span> </p>
-         <p> total price : <span>$<?= $fetch_orders['total_price']; ?>/-</span> </p>
+         <p> total price : <span>Rp <?= $fetch_orders['total_price']; ?>,-</span> </p>
          <p> payment status : <span style="color:<?php if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; }else{ echo 'green'; }; ?>"><?= $fetch_orders['payment_status']; ?></span> </p>
       </div>
       <?php
@@ -314,7 +314,7 @@ if(isset($_POST['order'])){
       }
       ?>
 
-      <div class="cart-total"> grand total : <span>$<?= $grand_total; ?>/-</span></div>
+      <div class="cart-total"> grand total : <span>Rp <?= $grand_total; ?>,-</span></div>
 
       <a href="#order" class="btn">order now</a>
 
@@ -384,7 +384,7 @@ if(isset($_POST['order'])){
             while($fetch_products = $select_products->fetch(PDO::FETCH_ASSOC)){    
       ?>
       <div class="box">
-         <div class="price">$<?= $fetch_products['price'] ?>/-</div>
+         <div class="price">Rp <?= $fetch_products['price'] ?>,-</div>
          <img src="uploaded_img/<?= $fetch_products['image'] ?>" alt="">
          <div class="name"><?= $fetch_products['name'] ?></div>
          <form action="" method="post">
@@ -447,7 +447,8 @@ if(isset($_POST['order'])){
       <div class="flex">
          <div class="inputBox">
             <span>Nama :</span>
-            <input type="text" name="name" class="box" required placeholder="Masukan namamu" maxlength="20">
+            <input type="text" name="name" pattern="[A-Za-z\s]+" class="box" required placeholder="Masukan namamu" maxlength="20"
+               title="Masukan format yang tepat, hanya huruf dan spasi yang diizinkan">
          </div>
          <div class="inputBox">
             <span>Nomor WhatsApp :</span>
@@ -457,7 +458,7 @@ if(isset($_POST['order'])){
             <span>Metode Pembayaran</span>
             <select name="method" class="box">
                <option value="cash on delivery">Cash On Delivery</option>
-               <option value="credit card">Credit Card</option>
+               <option value="take away">Take Away</option>
             </select>
          </div>
          <div class="inputBox">
@@ -466,7 +467,8 @@ if(isset($_POST['order'])){
          </div>
          <div class="inputBox">
             <span>Kabupaten/Kota :</span>
-            <input type="text" name="street" class="box" required placeholder="Contoh : Kota Salatiga" maxlength="50">
+            <input type="text" name="street" pattern="[A-Za-z\s]+" class="box" required placeholder="Contoh : Kota Salatiga" maxlength="50"
+               title="Masukan format yang tepat, hanya huruf dan spasi yang diizinkan">
          </div>
          <div class="inputBox">
             <span>Kode Pos :</span>
@@ -589,8 +591,7 @@ if(isset($_POST['order'])){
       <div class="box">
          <i class="fas fa-phone"></i>
          <h3>phone number</h3>
-         <p>+123-456-7890</p>
-         <p>+111-222-3333</p>
+         <p>+62-852-0001-1123</p>
       </div>
 
       <div class="box">
@@ -608,9 +609,7 @@ if(isset($_POST['order'])){
       <div class="box">
          <i class="fas fa-envelope"></i>
          <h3>Email Address</h3>
-         <p>672021166@student.uksw.edu</p>
-         <p>672021168@student.uksw.edu</p>
-         <p>672021172@student.uksw.edu</p>
+         <p>pizzamasbro@gmail.com</p>
       </div>
 
    </div>
