@@ -52,7 +52,7 @@ if(!isset($admin_id)){
          <p>total pendings</p>
          <a href="admin_orders.php" class="btn">see orders</a>
       </div>
-
+<!-- s -->
       <div class="box">
          <?php
             $total_completes = 0;
