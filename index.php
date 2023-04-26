@@ -494,7 +494,7 @@ if(isset($_POST['order'])){
 
       <div class="accordion active">
          <div class="accordion-heading">
-            <span>Apa jenis pizza yang paling populer di restoran ini?</span>
+            <span>Apa jenis pizza yang paling populer di PizzaMasbroo?</span>
             <i class="fas fa-angle-down"></i>
          </div>
          <p class="accrodion-content">
@@ -504,7 +504,7 @@ if(isset($_POST['order'])){
 
       <div class="accordion">
          <div class="accordion-heading">
-            <span>Berapa lama waktu tunggu untuk memesan pizza di restoran ini?/span>
+            <span>Berapa lama waktu tunggu untuk memesan pizza di PizzaMasbroo?</span>
             <i class="fas fa-angle-down"></i>
          </div>
          <p class="accrodion-content">
@@ -514,7 +514,7 @@ if(isset($_POST['order'])){
 
       <div class="accordion">
          <div class="accordion-heading">
-            <span>Apa opsi pengiriman yang tersedia di restoran ini?</span>
+            <span>Apa opsi pengiriman yang tersedia di PizzaMasbroo?</span>
             <i class="fas fa-angle-down"></i>
          </div>
          <p class="accrodion-content">
@@ -524,7 +524,7 @@ if(isset($_POST['order'])){
 
       <div class="accordion">
          <div class="accordion-heading">
-            <span>Apa jam operasi restoran ini?</span>
+            <span>Apa jam operasi PizzaMasbroo?</span>
             <i class="fas fa-angle-down"></i>
          </div>
          <p class="accrodion-content">
