@@ -494,52 +494,52 @@ if(isset($_POST['order'])){
 
       <div class="accordion active">
          <div class="accordion-heading">
-            <span>how does it work?</span>
+            <span>Apa jenis pizza yang paling populer di restoran ini?</span>
             <i class="fas fa-angle-down"></i>
          </div>
          <p class="accrodion-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+         Pizza Meat Lovers adalah jenis pizza yang paling populer di restoran kami. Pizza ini terdiri dari saus tomat, daging sapi cincang, daging babi cincang, pepperoni, keju mozzarella
          </p>
       </div>
 
       <div class="accordion">
          <div class="accordion-heading">
-            <span>how long does it take for delivery?</span>
+            <span>Berapa lama waktu tunggu untuk memesan pizza di restoran ini?/span>
             <i class="fas fa-angle-down"></i>
          </div>
          <p class="accrodion-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+            Kami selalu berusaha untuk mengirimkan pesanan sesegera mungkin tanpa mengorbankan kualitas pizza. Jika Anda ingin memesan pizza untuk waktu yang spesifik, kami sarankan Anda untuk memesan sebelumnya untuk memastikan pizza Anda siap tepat waktu.
          </p>
       </div>
 
       <div class="accordion">
          <div class="accordion-heading">
-            <span>can I order for huge parties?</span>
+            <span>Apa opsi pengiriman yang tersedia di restoran ini?</span>
             <i class="fas fa-angle-down"></i>
          </div>
          <p class="accrodion-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+            Kami menyediakan layanan pengiriman pizza di sekitar restoran. Anda juga dapat memesan pizza melalui aplikasi pihak ketiga seperti GrabFood atau GoFood.
          </p>
       </div>
 
       <div class="accordion">
          <div class="accordion-heading">
-            <span>how much protein it contains?</span>
+            <span>Apa jam operasi restoran ini?</span>
             <i class="fas fa-angle-down"></i>
          </div>
          <p class="accrodion-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+            Kami buka setiap hari dari pukul 08.00 pagi hingga 16.00 sore. Namun, jam operasi dapat berubah sesuai dengan situasi dan kondisi.
          </p>
       </div>
 
 
       <div class="accordion">
          <div class="accordion-heading">
-            <span>is it cooked with oil?</span>
+            <span>Bisakah saya memesan pizza untuk acara atau pesta?</span>
             <i class="fas fa-angle-down"></i>
          </div>
          <p class="accrodion-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quas. Quidem minima veniam accusantium maxime, doloremque iusto deleniti veritatis quos.
+            Ya, Anda dapat memesan pizza untuk acara atau pesta. Kami memiliki paket khusus untuk pesanan besar dan Anda dapat menghubungi kami untuk informasi lebih lanjut.
          </p>
       </div>
 
